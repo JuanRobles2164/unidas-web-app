@@ -11,6 +11,11 @@ import { CheckboxListFormComponentComponent } from './checkbox-list-form-compone
 import { CalendarRangeFormComponentComponent } from './calendar-range-form-component/calendar-range-form-component.component';
 import { ListViewElementsFormComponentComponent } from './list-view-elements-form-component/list-view-elements-form-component.component';
 import { DetailsComponentComponent } from './details-component/details-component.component';
+import { TopBarComponent } from './top-bar/top-bar.component';
+import { BackgroundComponent } from './background/background.component';
+import { PageContentComponent } from './page-content/page-content.component';
+import { LoginFormComponent } from './login-form/login-form.component';
+import { RegisterViewComponent } from './register-view/register-view.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +26,12 @@ import { DetailsComponentComponent } from './details-component/details-component
     CheckboxListFormComponentComponent,
     CalendarRangeFormComponentComponent,
     ListViewElementsFormComponentComponent,
-    DetailsComponentComponent
+    DetailsComponentComponent,
+    TopBarComponent,
+    BackgroundComponent,
+    PageContentComponent,
+    LoginFormComponent,
+    RegisterViewComponent
   ],
   imports: [
     BrowserModule,
