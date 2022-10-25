@@ -7,6 +7,10 @@
     color: #ffffff;
     background-color: #003b73;
   }
+
+  .thick {
+    font-weight: bold;
+  }
   
   .top-bar-item{
     cursor: pointer;

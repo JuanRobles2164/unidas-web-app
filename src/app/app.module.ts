@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { FormsModule } from "@angular/forms";
 import { AppComponent } from './app.component';
 import { LoginFormComponentComponent } from './login-form-component/login-form-component.component';
 import { RegisterFormComponentComponent } from './register-form-component/register-form-component.component';
@@ -16,6 +15,10 @@ import { BackgroundComponent } from './background/background.component';
 import { PageContentComponent } from './page-content/page-content.component';
 import { LoginFormComponent } from './login-form/login-form.component';
 import { RegisterViewComponent } from './register-view/register-view.component';
+import { ListViewComponent } from './list-view/list-view.component';
+import { DataGatheringViewComponent } from './data-gathering-view/data-gathering-view.component';
+import { DetailsViewComponent } from './details-view/details-view.component';
+import { AddressFormComponentComponent } from './address-form-component/address-form-component.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,11 @@ import { RegisterViewComponent } from './register-view/register-view.component';
     BackgroundComponent,
     PageContentComponent,
     LoginFormComponent,
-    RegisterViewComponent
+    RegisterViewComponent,
+    ListViewComponent,
+    DataGatheringViewComponent,
+    DetailsViewComponent,
+    AddressFormComponentComponent
   ],
   imports: [
     BrowserModule,
