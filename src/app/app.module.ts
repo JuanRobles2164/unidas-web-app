@@ -19,6 +19,15 @@ import { ListViewComponent } from './list-view/list-view.component';
 import { DataGatheringViewComponent } from './data-gathering-view/data-gathering-view.component';
 import { DetailsViewComponent } from './details-view/details-view.component';
 import { AddressFormComponentComponent } from './address-form-component/address-form-component.component';
+import { Routes, RouterModule } from '@angular/router';
+
+const appRoutes : Routes = [
+  {path: '', component: LoginFormComponentComponent},
+  {path: 'register', component: RegisterFormComponentComponent},
+  {path: 'data_gathering', component: DataGatheringViewComponent},
+  {path: 'list', component: ListViewComponent},
+  {path: 'details', component: DetailsViewComponent}
+];
 
 @NgModule({
   declarations: [
@@ -42,7 +51,8 @@ import { AddressFormComponentComponent } from './address-form-component/address-
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
